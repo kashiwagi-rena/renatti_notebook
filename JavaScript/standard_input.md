@@ -46,7 +46,23 @@ console.log(Number(num[0]) + Number(num[1]));
 2
 
 > 3 
+```
 
-[JavaScript 正規表現まとめ](https://qiita.com/iLLviA/items/b6bf680cd2408edd050f)
+2行で渡される数字を足し算
+他の人のコード
+```
+const fs = require("fs")
+const input = fs.readFileSync("/dev/stdin", "utf8")
+const [a,b] = input.split("\n").slice(0,-1)
+console.log(a)
+console.log(Number(a)+Number(b))
+
+input.split("\n")で、["1", "2", ""]にして
+slice(0, -1)で、配列の先頭（インデックス 0）から最後の1つ手前（インデックス -1）までを取り出します。["1", "2", ""] →["1", "2"]にする
+
+入力値：1
+2
+
+> 3 
 ```
 

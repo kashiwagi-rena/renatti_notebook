@@ -27,3 +27,4 @@ str.match(/[A-E]/gi);
 
 ### 参考文献
 [JavaScript【match】文字列のマッチと正規表現](https://programmercollege.jp/column/7762)
+[JavaScript 正規表現まとめ](https://qiita.com/iLLviA/items/b6bf680cd2408edd050f)
