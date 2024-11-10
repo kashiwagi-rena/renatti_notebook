@@ -66,3 +66,15 @@ slice(0, -1)で、配列の先頭（インデックス 0）から最後の1つ�
 > 3 
 ```
 
+文字列を繋げる(改行された2つの文字を繋げなさい)
+```
+const fs = require("fs");
+const input = fs.readFileSync("/dev/stdin", "utf8");
+const [a,b] = input.split("\n")
+console.log(a + b);
+
+出力値：algo
+method
+
+> algomethod
+```
