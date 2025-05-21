@@ -68,4 +68,12 @@ console.log(sorted); // [1, 2, 3, 4, 5, 6, 7, 8]
 
 
 ## 参考URL
-https://www.seplus.jp/dokushuzemi/ec/fe/fenavi/similar_programming/margesort/
+`Math.floor()`
+[Math.floor()](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Math/floor) は静的メソッドで、与えられた数値以下の最大の整数を返します。(多分、小数点以下を丸める感じ)
+
+[Arr.slice()](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+slice() は Array インスタンスのメソッドで、配列の一部を start から end （end は含まれない）までの範囲で、選択した新しい配列オブジェクトにシャローコピーして返します。 ここで start と end はその配列に含まれる項目のインデックスを表します。元の配列は変更されません。
+
+[concat()](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Array/concat) は Array インスタンスのメソッドで、2 つ以上の配列を結合するために使用します。 このメソッドは既存の配列を変更せず、新しい配列を返します。
+
+[マージソートの記事](https://www.seplus.jp/dokushuzemi/ec/fe/fenavi/similar_programming/margesort/)
